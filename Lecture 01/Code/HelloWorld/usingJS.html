@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<script>
+    console.log('hello from js');
+
+    const heading = document.createElement('h1');
+    const heading2 = document.createElement('h2');
+    heading2.innerHTML ='heading tag2'
+    heading.innerHTML='hello from js';
+
+    const root = document.getElementById('root');
+    root.appendChild(document.createElement('div'));
+    root.appendChild(heading);
+    root.appendChild(heading2);
+</script>
+</html>
