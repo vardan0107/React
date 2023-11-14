@@ -1,0 +1,19 @@
+.header {
+    background-color: lightcyan;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.image {
+    align-self: center;
+   padding: 10;
+}
+
+.search {
+    height: 35;
+    width: 20%;
+    border-radius: 25;
+    padding-inline: 20;
+    align-self: center;
+}
